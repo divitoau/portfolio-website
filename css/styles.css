@@ -127,18 +127,21 @@ th {
     text-decoration: none;
 }
 
-
-.brush-stroke {
-    transform: rotate(15deg);
-}
-
-.profile {
-    max-width: 700px;
+main {
+    width: fit-content;
     margin: 0 auto;
 }
 
+.profile {
+    display: flex;
+    margin-top: 40px;
+}
+
+.profile__text {
+    padding-top: 35px;
+}
+
 .profile_portrait {
-    float: left;
     width: 250px;
     margin-right: 40px;
     border-radius: 50%;
