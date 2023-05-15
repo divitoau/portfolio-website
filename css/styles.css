@@ -192,6 +192,7 @@ main {
     width: fit-content;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .twitter-icon {
