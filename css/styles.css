@@ -149,7 +149,6 @@ main {
 
 #web-text {
     background-color: var(--primary-color);
-    color: white;
     border-radius: 20%;
     border: 2px solid var(--light-grey);
 }
@@ -190,7 +189,9 @@ main {
 }
 
 #page-footer__header {
-    background-color: var(--light-grey);
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .twitter-icon {
