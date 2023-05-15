@@ -195,6 +195,10 @@ main {
     margin-bottom: 10px;
 }
 
+.page-footer__link {
+    margin: 5px;
+}
+
 .twitter-icon {
     border-radius: 20%;
 }
