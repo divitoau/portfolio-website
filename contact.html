@@ -1,93 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Austin DiVito - Contact</title>
-    <link rel="shortcut icon" href="./img/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-</head>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
 
-<body>
+  <body>
     <header class="page-header">
-        <img src="img/austin-logo.jpeg" alt="Austin DiVito logo" class="page-header__item page-header__logo">
-        <nav class="page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="./index.html" role="menuitem" class="navigation-list__item">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="./about.html" role="menuitem" class="navigation-list__item">About Me</a>
-                </li>
-                <li role="presentation">
-                    <a href="./work.html" role="menuitem" class="navigation-list__item">My
-                        Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="./contact.html" role="menuitem"
-                        class="navigation-list__item navigation-list__item--active">Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <img
+        src="img/austin-logo.jpeg"
+        alt="Austin DiVito logo"
+        class="page-header__item page-header__logo"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="./index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./work.html" role="menuitem" class="navigation-list__item"
+              >My Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="./contact.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Contact</h1>
-        <p>Phone number:<a href="tel:+1(407)625-6742" aria-label="1 4 0 7. 6 2 5. 6 7 4 2">+1(407)625-6742</a>
-            <br>
-            Email:<a href="mailto:divitoau@gmail.com">divitoau@gmail.com</a>
-            <br>
-            <a href="mailto:divitoau@gmail.com">Contact me</a>
-            <br>
-        </p>
-        <form action="" method="post" id="contact-form">
-            <div>
-                <label class="standard-label" for="contact-email">E-mail: </label>
-                <input type="email" id="contact-email" required>
-                <label class="standard-label" for="contact-tel">Telephone: </label>
-                <input type="tel" id="contact-tel">
-            </div>
-            <br>
-            <label class="standard-label" for="contact-message">Message: </label>
-            <textarea id="contact-message" cols="30" rows="10" maxlength="240" required></textarea>
-            <input type="submit" value="Send message">
-        </form>
+      <h1>Contact</h1>
+      <p>
+        Phone number:<a
+          href="tel:+1(407)625-6742"
+          aria-label="1 4 0 7. 6 2 5. 6 7 4 2"
+          >+1(407)625-6742</a
+        >
+        <br />
+        Email:<a href="mailto:divitoau@gmail.com">divitoau@gmail.com</a>
+        <br />
+        <a href="mailto:divitoau@gmail.com">Contact me</a>
+        <br />
+      </p>
+      <form action="" method="post" id="contact-form">
+        <div>
+          <label class="standard-label" for="contact-email">E-mail: </label>
+          <input type="email" id="contact-email" required />
+          <label class="standard-label" for="contact-tel">Telephone: </label>
+          <input type="tel" id="contact-tel" />
+        </div>
+        <br />
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea
+          id="contact-message"
+          cols="30"
+          rows="10"
+          maxlength="240"
+          required
+        ></textarea>
+        <input type="submit" value="Send message" />
+      </form>
     </main>
     <footer class="page-footer">
-        <h2 id="page-footer__header">Find me on</h2>
-        <div class="social-media">
-            <a href="https://github.com/divitoau" target="_blank" class="page-footer__link">
-                <img src="./svg/github.svg" alt="github icon">
-            </a>
-            <a href="https://twitter.com" target="_blank" class="page-footer__link">
-                <svg title="twitter icon" width="30px" height="30px" version="1.1" id="Capa_1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 455.731 455.731" style="enable-background:new 0 0 455.731 455.731;"
-                    xml:space="preserve" class="twitter-icon">
-                    <g>
-                        <rect x="0" y="0" style="fill:#50ABF1;" width="455.731" height="455.731" />
-                        <path style="fill:#FFFFFF;" d="M60.377,337.822c30.33,19.236,66.308,30.368,104.875,30.368c108.349,0,196.18-87.841,196.18-196.18
+      <h2 id="page-footer__header">Find me on</h2>
+      <div class="social-media">
+        <a
+          href="https://github.com/divitoau"
+          target="_blank"
+          class="page-footer__link"
+        >
+          <img src="./svg/github.svg" alt="github icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank" class="page-footer__link">
+          <svg
+            title="twitter icon"
+            width="30px"
+            height="30px"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 455.731 455.731"
+            style="enable-background: new 0 0 455.731 455.731"
+            xml:space="preserve"
+            class="twitter-icon"
+          >
+            <g>
+              <rect
+                x="0"
+                y="0"
+                style="fill: #50abf1"
+                width="455.731"
+                height="455.731"
+              />
+              <path
+                style="fill: #ffffff"
+                d="M60.377,337.822c30.33,19.236,66.308,30.368,104.875,30.368c108.349,0,196.18-87.841,196.18-196.18
                             c0-2.705-0.057-5.39-0.161-8.067c3.919-3.084,28.157-22.511,34.098-35c0,0-19.683,8.18-38.947,10.107
                             c-0.038,0-0.085,0.009-0.123,0.009c0,0,0.038-0.019,0.104-0.066c1.775-1.186,26.591-18.079,29.951-38.207
                             c0,0-13.922,7.431-33.415,13.932c-3.227,1.072-6.605,2.126-10.088,3.103c-12.565-13.41-30.425-21.78-50.25-21.78
                             c-38.027,0-68.841,30.805-68.841,68.803c0,5.362,0.617,10.581,1.784,15.592c-5.314-0.218-86.237-4.755-141.289-71.423
                             c0,0-32.902,44.917,19.607,91.105c0,0-15.962-0.636-29.733-8.864c0,0-5.058,54.416,54.407,68.329c0,0-11.701,4.432-30.368,1.272
-                            c0,0,10.439,43.968,63.271,48.077c0,0-41.777,37.74-101.081,28.885L60.377,337.822z" />
-                    </g>
-                </svg>
-            </a>
-            <a href="https://facebook.com" target="_blank" class="page-footer__link">
-                <img src="./svg/facebook.svg" alt="facebook icon">
-            </a>
-        </div>
+                            c0,0,10.439,43.968,63.271,48.077c0,0-41.777,37.74-101.081,28.885L60.377,337.822z"
+              />
+            </g>
+          </svg>
+        </a>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="page-footer__link"
+        >
+          <img src="./svg/facebook.svg" alt="facebook icon" />
+        </a>
+      </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
-</body>
-
+  </body>
 </html>

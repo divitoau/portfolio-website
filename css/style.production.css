@@ -168,6 +168,12 @@ main {
     border-radius: 50%;
 }
 
+.work_example {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: 4px;
+}
+
 #web-text {
     background-color: var(--primary-color);
     border-radius: 20%;
@@ -183,8 +189,8 @@ main {
     .grid {
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         margin: 0;
     }
@@ -194,14 +200,6 @@ main {
         width: auto;
         min-height: auto;
         padding: 8px
-    }
-
-    .grid__item:last-child {
-        -ms-grid-column: 3;
-        grid-column: 3/3;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 2;
-        grid-row: 1/3;
     }
 }
 
