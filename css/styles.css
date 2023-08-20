@@ -43,6 +43,7 @@ a button {
 
 a {
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 a:visited {
@@ -89,8 +90,10 @@ button:active,
     color: white;
 }
 
-th {
+th,
+td {
     text-align: left;
+    padding: 0 18px;
 }
 
 .page-header {

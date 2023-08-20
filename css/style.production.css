@@ -98,8 +98,10 @@ button:active,
     color: white;
 }
 
-th {
+th,
+td {
     text-align: left;
+    padding: 0 18px;
 }
 
 .page-header {
@@ -226,6 +228,7 @@ main {
 
 .page-footer__link {
     margin: 5px;
+    text-decoration: none;
 }
 
 .twitter-icon {
