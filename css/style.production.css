@@ -173,11 +173,18 @@ main {
 .example-container {
     width: 100%;
     aspect-ratio: 4/3;
+    
 }
 
 .work_example {
     width: 100%;
     border-radius: 4px;
+}
+
+.work_example_tall{
+    display: block;
+    height: 100%;
+    margin: auto;
 }
 
 #web-text {
